@@ -1,3 +1,7 @@
+$(document).on('click', '.heart', function() {
+    console.log("Click en el corazón");
+});
+
 $("#messageState").on("change", (x) => {
 	$(".message").removeClass("openNor").removeClass("closeNor");
 	if ($("#messageState").is(":checked")) {
